@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "nodemon --loader ts-node/esm app.ts",
+    "dev": "nodemon --loader ts-node/esm server/src/app.ts",
     "build": "tsc",
-    "start": "dist/nodemon app.js"
+    "start": "nodemon dist/server/app.js"
   },
   "dependencies": {
     "@prisma/client": "^6.3.0",
