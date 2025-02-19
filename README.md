@@ -35,32 +35,32 @@ Form Handling & Validation – Easily extendable for form submissions and valida
 
 Project Structure
 
-/root
-  ├── /client (React Frontend)
-  │   ├── /src
-  │   │   ├── /components
-  │   │   ├── /hooks
-  │   │   ├── /pages
-  │   │   ├── main.tsx
-  │   │   ├── App.tsx
-  │   ├── /public
-  │   ├── index.html
-  │   ├── vite.config.ts
-  │   ├── tsconfig.json
-  ├── /server (Express Backend)
-  │   ├── /src
-  │   │   ├── /config (Database, Passport, Session)
-  │   │   ├── /controllers
-  │   │   ├── /middleware
-  │   │   ├── /models
-  │   │   ├── /routes
-  │   │   ├── /utils
-  │   │   ├── app.ts (Main Express app entry)
-  │   │   ├── server.ts (Starts Express server)
-  │   ├── tsconfig.json
-  │   ├── prisma/schema.prisma
-  ├── package.json (Root Scripts & Dependencies)
-  ├── tsconfig.json (Global TypeScript Config)
+/root\
+  ├── /client (React Frontend)\
+  │   ├── /src\
+  │   │   ├── /components\
+  │   │   ├── /hooks\
+  │   │   ├── /pages\
+  │   │   ├── main.tsx\
+  │   │   ├── App.tsx\
+  │   ├── /public\
+  │   ├── index.html\
+  │   ├── vite.config.ts\
+  │   ├── tsconfig.json\
+  ├── /server (Express Backend)\
+  │   ├── /src\
+  │   │   ├── /config (Database, Passport, Session)\
+  │   │   ├── /controllers\
+  │   │   ├── /middleware\
+  │   │   ├── /models\
+  │   │   ├── /routes\
+  │   │   ├── /utils\
+  │   │   ├── app.ts (Main Express app entry)\
+  │   │   ├── server.ts (Starts Express server)\
+  │   ├── tsconfig.json\
+  │   ├── prisma/schema.prisma\
+  ├── package.json (Root Scripts & Dependencies)\
+  ├── tsconfig.json (Global TypeScript Config)\
   ├── README.md
 
 Installation & Setup
